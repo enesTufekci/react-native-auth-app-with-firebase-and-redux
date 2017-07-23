@@ -1,0 +1,51 @@
+{
+  "name": "react-native-firebase-basic-auth",
+  "version": "0.0.1",
+  "description": "Simple React Navive Auth App with Firebase and Redux",
+  "author": "Enes Tufekci <enesxtufekci@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enesTufekci/react-native-auth-app-with-firebase-and-redux"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest-expo": "~18.0.0",
+    "react-native-scripts": "0.0.50",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^18.0.3",
+    "firebase": "^4.1.3",
+    "lodash": "^4.16.6",
+    "moment": "^2.16.0",
+    "numeral": "^1.5.3",
+    "prop-types": "^15.5.10",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.45.1",
+    "react-native-config": "^0.3.1",
+    "react-native-controllers": "^2.1.4",
+    "react-native-linear-gradient": "^2.0.0",
+    "react-native-navigation": "^1.1.136",
+    "react-native-scrollable-tab-view": "^0.7.4",
+    "react-native-swiper": "^1.5.4",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "redux-immutable-state-invariant": "^2.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "tcomb-form-native": "^0.6.9"
+  }
+}
